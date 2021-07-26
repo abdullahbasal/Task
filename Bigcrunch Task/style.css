@@ -1,0 +1,167 @@
+html {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+}
+body {
+  background-image: url(cennet-koyu.png);
+  transition: background-image 1s;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-size: 1920px 1080px;
+}
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+@font-face {
+  font-family: 'Paralucent-Light';
+  src: url('Paralucent_W00_Light/ParalucentW00Light.otf');
+}
+@font-face {
+  font-family: 'Paralucent-Medium';
+  src: url('ParalucentW00Medium/Paralucent-W00-Medium.otf');
+}
+@font-face {
+  font-family: 'Paralucent-Demi-Bold';
+  src: url('ParalucentW00DemiBold/ParalucentW00DemiBold.otf');
+}
+.midline {
+  margin: 56.91px 140px 45px 140px;
+}
+
+.logo {
+  display: inline-block;
+}
+.hamburger {
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+}
+.content {
+  margin-top: 204px;
+  color: white;
+}
+.years {
+  font-size: 39px;
+  text-align: left;
+  color: white;
+  display: inline-block;
+  margin-right: 24px;
+  font-family: Paralucent-Light;
+}
+.design {
+  font-size: 20px;
+  opacity: 0.7;
+  display: inline-block;
+  font-family: Paralucent-Light;
+}
+
+.title-1 {
+  font-size: 76px;
+  font-weight: 300px;
+  font-family: Paralucent-Light;
+}
+.title-2 {
+  font-size: 76px;
+  font-weight: medium;
+  font-family: Paralucent-Medium;
+}
+.projects {
+  font-size: 25px;
+  margin-top: 64px;
+  cursor: pointer;
+  font-family: Paralucent-Medium;
+}
+.projects img {
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: middle;
+}
+.footer {
+  margin-top: 320px;
+  color: white;
+}
+.footer-tabs {
+  display: inline-block;
+  width: 387px;
+  height: 113px;
+  border-bottom: 10px solid;
+  margin-right: 16px;
+  cursor: pointer;
+}
+.page-one {
+  border-color: white;
+}
+.page-two {
+  border-color: #808080;
+}
+.page-three {
+  border-color: #808080;
+}
+.page-four {
+  border-color: #808080;
+}
+.footer-tabs:last-child {
+  margin-left: 0px;
+}
+.footer-number {
+  font-size: 39px;
+  font-family: Paralucent-Demi-Bold;
+
+  font-weight: bold;
+  width: 37px;
+  height: 47px;
+}
+.footer-title {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  text-align: left;
+  font-weight: 300;
+  padding-top: 16px;
+  font-family: Paralucent-Light;
+}
+
+.right-side-menu {
+  position: absolute;
+  display: none;
+  right: 0px;
+  top: 0px;
+  background: url(border-logo.png) black;
+  background-repeat: no-repeat;
+  color: white;
+  clip-path: polygon(22% 0%, 100% 0%, 100% 100%, 0% 100%);
+  width: 1020px;
+  height: 1080px;
+}
+.right-side-content {
+  position: absolute;
+  right: 409px;
+  top: 251px;
+  font-family: Paralucent-Light;
+  z-index: 1;
+}
+ul {
+  list-style: none;
+}
+li {
+  line-height: 90px;
+  font-size: 61px;
+}
+.right-side-footer {
+  position: absolute;
+  bottom: 120px;
+  right: 280px;
+}
+.right-side-footer div {
+  display: inline-block;
+  margin-right: 65px;
+}
+.close-button {
+  position: absolute;
+  top: 58px;
+  right: 150px;
+  cursor: pointer;
+}
